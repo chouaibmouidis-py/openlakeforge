@@ -1,0 +1,30 @@
+{
+  "eventType": "COMPLETE",
+  "eventTime": "2026-11-03T21:23:12.944051+00:00",
+  "run": {
+    "runId": "06a5b2f8-a516-43be-9b6f-5f53d74cf58d",
+    "facets": {
+      "errorMessage": {}
+    }
+  },
+  "job": {
+    "namespace": "openlakeforge-local",
+    "name": "heavy_silver_to_gold_customer_traffic_mart"
+  },
+  "inputs": [
+    {
+      "namespace": "iceberg",
+      "name": "sales_silver.orders"
+    },
+    {
+      "namespace": "iceberg",
+      "name": "sales_silver.accounts"
+    }
+  ],
+  "outputs": [
+    {
+      "namespace": "iceberg",
+      "name": "customer_health_gold.customer_traffic_ranking"
+    }
+  ]
+}
