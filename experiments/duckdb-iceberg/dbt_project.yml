@@ -1,0 +1,9 @@
+name: duckdb_iceberg_lab
+version: 1.0
+config-version: 2
+profile: duckdb_iceberg_lab
+model-paths: ["models"]
+
+models:
+  duckdb_iceberg_lab:
+    +materialized: table

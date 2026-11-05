@@ -1,0 +1,13 @@
+profiles.yml
+.user.yml
+target/
+logs/
+dbt_packages/
+data/
+*.duckdb
+*.duckdb.wal
+.env
+.env.*
+.venv/
+.DS_Store
+dbt_internal_packages/
